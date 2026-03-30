@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "parser.h": "c",
+        "signal.h": "c",
+        "executor.h": "c",
+        "common.h": "c"
+    }
+}

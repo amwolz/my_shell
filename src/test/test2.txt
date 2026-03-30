@@ -1,0 +1,18 @@
+help
+ls
+echo this is a test
+pwd
+cd build
+pwd
+cd ..
+pwd
+sleep 3 &
+./bin/test/wait 3 &
+sleep 3 &
+lj
+sleep 4
+lj
+
+
+
+lj

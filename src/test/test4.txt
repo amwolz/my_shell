@@ -1,0 +1,13 @@
+sleep 3 &
+./bin/test/wait 4 &
+sleep 2 &
+./bin/test/wait 3 &
+lj
+s %2
+s %3
+lj
+sleep 1
+bg %3
+fg %2
+lj
+echo foreground job does not log anything upon completion

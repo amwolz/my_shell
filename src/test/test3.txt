@@ -1,0 +1,15 @@
+./bin/test/wait 6 &
+sleep 7 &
+lj
+k %1
+lj
+sleep 10 &
+sleep 10 &
+sleep 10 &
+lj
+k %3
+lj
+lj
+k %2
+
+lj

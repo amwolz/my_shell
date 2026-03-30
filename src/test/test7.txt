@@ -1,0 +1,15 @@
+./bin/test/wait_fork_zombies 8 &
+lj
+sleep 2.01
+s %1
+lj
+fg %1
+lj
+./bin/test/wait_fork_zombies 8 &
+lj
+sleep 2.01
+k %1
+lj
+fg %1
+lj
+echo no such job

@@ -1,0 +1,11 @@
+./bin/test/wait 10 &
+./bin/test/wait 10 &
+./bin/test/wait_fork_zombies 4 &
+./bin/test/wait_fork_zombies 4 &
+lj
+k %3
+lj
+./bin/test/wait_fork_zombies 3 &
+lj  
+./bin/test/wait_print 10
+echo also notice the varying order of job completion (fork vs for condition)

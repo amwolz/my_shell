@@ -1,0 +1,10 @@
+./bin/test/wait_fork_zombies 4
+lj
+./bin/test/wait_fork_orphans 4
+lj
+./bin/test/wait_fork_zombies 4 &
+lj
+./bin/test/wait_fork_orphans 4 &
+lj
+sleep 4
+lj

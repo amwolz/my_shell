@@ -1,0 +1,23 @@
+sleep 10 &
+sleep 10 &
+sleep 10 &
+sleep 10 &
+lj
+k %1
+k %2
+k %3
+k %4
+lj
+sleep 5 &
+s %1
+lj
+sleep 10 &
+k %1
+k %1
+sleep 10 &
+s %1
+s %1
+k %1
+s %1
+s %1
+lj

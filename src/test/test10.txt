@@ -1,0 +1,11 @@
+sleep 2 &
+sleep 1 &
+sleep 3
+echo test
+sleep 10 &
+kill %1
+echo test
+sleep 10 &
+stop %1
+lj
+echo test

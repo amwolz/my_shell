@@ -1,0 +1,15 @@
+./bin/test/wait 1
+sleep 1
+./bin/test/wait 1 &
+k %1
+sleep 1
+sleep 1
+./bin/test/wait 1 &
+s %1
+sleep 1
+sleep 1
+./bin/test/wait 1 &
+s %2
+k %2
+sleep 1
+sleep 1

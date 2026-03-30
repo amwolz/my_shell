@@ -52,7 +52,7 @@ From the root of this repo, run `./driver.sh <int testfile_number>` to run a tes
 
 ## Output Example
 
-![alt text](images/image1.png)
+https://github.com/user-attachments/assets/d8b7ae36-02f6-449a-b2fb-12407af6446d
 
 ### Case Description
 
